@@ -1,150 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+<testng-results ignored="0" total="22" passed="19" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-15T10:35:04 IST" name="Default suite" finished-at="2025-05-15T10:35:46 IST" duration-ms="41922">
+  <suite started-at="2025-05-15T15:57:11 IST" name="Default suite" finished-at="2025-05-15T15:59:41 IST" duration-ms="149340">
     <groups>
     </groups>
-    <test started-at="2025-05-15T10:35:04 IST" name="Default test" finished-at="2025-05-15T10:35:46 IST" duration-ms="41922">
-      <class name="testBase.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:04 IST" name="setup" finished-at="2025-05-15T10:35:12 IST" duration-ms="7093" status="PASS">
+    <test started-at="2025-05-15T15:57:11 IST" name="Default test" finished-at="2025-05-15T15:59:41 IST" duration-ms="149340">
+      <class name="testBase.RegistrationPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testBase.RegistrationPageTest@1de5f259]" started-at="2025-05-15T15:57:12 IST" name="setup" finished-at="2025-05-15T15:57:19 IST" duration-ms="7665" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:14 IST" name="initialize" finished-at="2025-05-15T10:35:14 IST" duration-ms="4" status="PASS">
+        <test-method signature="testValidRegistration()[pri:0, instance:testBase.RegistrationPageTest@1de5f259]" started-at="2025-05-15T15:57:19 IST" name="testValidRegistration" finished-at="2025-05-15T15:57:23 IST" duration-ms="3728" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:14 IST" name="loginTest" data-provider="loginData" finished-at="2025-05-15T10:35:15 IST" duration-ms="992" status="PASS">
+        </test-method> <!-- testValidRegistration -->
+        <test-method signature="testValidRegistrationDataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.RegistrationPageTest@1de5f259]" started-at="2025-05-15T15:57:26 IST" name="testValidRegistrationDataDriven" data-provider="Registration" finished-at="2025-05-15T15:57:27 IST" duration-ms="1677" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Username]]>
+                <![CDATA[Gender]]>
               </value>
             </param>
             <param index="1">
+              <value>
+                <![CDATA[FirstName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LastName]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Email]]>
+              </value>
+            </param>
+            <param index="4">
               <value>
                 <![CDATA[Password]]>
               </value>
             </param>
-            <param index="2">
-              <value>
-                <![CDATA[ExpectedResult]]>
-              </value>
-            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:15 IST" name="initialize" finished-at="2025-05-15T10:35:15 IST" duration-ms="17" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:15 IST" name="loginTest" data-provider="loginData" finished-at="2025-05-15T10:35:17 IST" duration-ms="1747" status="PASS">
+        </test-method> <!-- testValidRegistrationDataDriven -->
+        <test-method signature="testValidRegistrationDataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.RegistrationPageTest@1de5f259]" started-at="2025-05-15T15:57:27 IST" name="testValidRegistrationDataDriven" data-provider="Registration" finished-at="2025-05-15T15:57:31 IST" duration-ms="3389" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[user1@example.com]]>
+                <![CDATA[male]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[correct123]]>
+                <![CDATA[John]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[valid]]>
+                <![CDATA[Doe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[john.doe@example.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Password123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:17 IST" name="initialize" finished-at="2025-05-15T10:35:17 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:17 IST" name="loginTest" data-provider="loginData" finished-at="2025-05-15T10:35:18 IST" duration-ms="1594" status="PASS">
+        </test-method> <!-- testValidRegistrationDataDriven -->
+        <test-method signature="testValidRegistrationDataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.RegistrationPageTest@1de5f259]" started-at="2025-05-15T15:57:31 IST" name="testValidRegistrationDataDriven" data-provider="Registration" finished-at="2025-05-15T15:57:34 IST" duration-ms="3361" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[user2@example.com]]>
+                <![CDATA[female]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[wrongpass]]>
+                <![CDATA[Priya]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[invalid]]>
+                <![CDATA[Sharma]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[priya.sharma@example.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[SecurePass456]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:18 IST" name="initialize" finished-at="2025-05-15T10:35:18 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:18 IST" name="loginTest" data-provider="loginData" finished-at="2025-05-15T10:35:20 IST" duration-ms="1552" status="PASS">
+        </test-method> <!-- testValidRegistrationDataDriven -->
+        <test-method signature="testValidRegistrationDataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.RegistrationPageTest@1de5f259]" started-at="2025-05-15T15:57:34 IST" name="testValidRegistrationDataDriven" data-provider="Registration" finished-at="2025-05-15T15:57:38 IST" duration-ms="4125" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[]]>
+                <![CDATA[male]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[correct123]]>
+                <![CDATA[Amit]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[invalid]]>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[amit.kumar@example.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[AmitPass789]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:20 IST" name="initialize" finished-at="2025-05-15T10:35:20 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:20 IST" name="loginTest" data-provider="loginData" finished-at="2025-05-15T10:35:21 IST" duration-ms="1232" status="PASS">
+        </test-method> <!-- testValidRegistrationDataDriven -->
+        <test-method signature="testValidRegistrationDataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.RegistrationPageTest@1de5f259]" started-at="2025-05-15T15:57:38 IST" name="testValidRegistrationDataDriven" data-provider="Registration" finished-at="2025-05-15T15:57:50 IST" duration-ms="12004" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[admin@example.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[valid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:21 IST" name="initialize" finished-at="2025-05-15T10:35:21 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:21 IST" name="loginTest" data-provider="loginData" finished-at="2025-05-15T10:35:23 IST" duration-ms="1487" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[test@example.com]]>
+                <![CDATA[male]]>
               </value>
             </param>
             <param index="1">
@@ -154,393 +153,729 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[invalid]]>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[amit.kumar@example.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[AmitPass789]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:23 IST" name="initialize" finished-at="2025-05-15T10:35:23 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:23 IST" name="loginTest" data-provider="loginData" finished-at="2025-05-15T10:35:24 IST" duration-ms="1140" status="PASS">
+        </test-method> <!-- testValidRegistrationDataDriven -->
+        <test-method signature="testValidRegistrationDataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.RegistrationPageTest@1de5f259]" started-at="2025-05-15T15:57:50 IST" name="testValidRegistrationDataDriven" data-provider="Registration" finished-at="2025-05-15T15:57:52 IST" duration-ms="1762" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[wrongemail.com]]>
+                <![CDATA[female]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[test123]]>
+                <![CDATA[Priya]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[invalid]]>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[priya.sharma@example.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[SecurePass456]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:24 IST" name="initialize" finished-at="2025-05-15T10:35:24 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:24 IST" name="loginTest" data-provider="loginData" finished-at="2025-05-15T10:35:26 IST" duration-ms="1694" status="PASS">
+        </test-method> <!-- testValidRegistrationDataDriven -->
+        <test-method signature="testValidRegistrationDataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.RegistrationPageTest@1de5f259]" started-at="2025-05-15T15:57:52 IST" name="testValidRegistrationDataDriven" data-provider="Registration" finished-at="2025-05-15T15:57:54 IST" duration-ms="1762" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[user3@example.com]]>
+                <![CDATA[male]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[123]]>
+                <![CDATA[John]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[invalid]]>
+                <![CDATA[Doe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[john.doe@]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Password123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:26 IST" name="initialize" finished-at="2025-05-15T10:35:26 IST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:26 IST" name="loginTest" data-provider="loginData" finished-at="2025-05-15T10:35:28 IST" duration-ms="2703" status="PASS">
+        </test-method> <!-- testValidRegistrationDataDriven -->
+        <test-method signature="testValidRegistrationDataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.RegistrationPageTest@1de5f259]" started-at="2025-05-15T15:57:54 IST" name="testValidRegistrationDataDriven" data-provider="Registration" finished-at="2025-05-15T15:57:56 IST" duration-ms="1790" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[user4@example.com]]>
+                <![CDATA[female]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Correct123!]]>
+                <![CDATA[Priya]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[valid]]>
+                <![CDATA[Sharma]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[priya@@example.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[SecurePass456]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:28 IST" name="initialize" finished-at="2025-05-15T10:35:28 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:28 IST" name="loginTest" data-provider="loginData" finished-at="2025-05-15T10:35:30 IST" duration-ms="1078" status="PASS">
+        </test-method> <!-- testValidRegistrationDataDriven -->
+        <test-method signature="testValidRegistrationDataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.RegistrationPageTest@1de5f259]" started-at="2025-05-15T15:57:56 IST" name="testValidRegistrationDataDriven" data-provider="Registration" finished-at="2025-05-15T15:57:57 IST" duration-ms="1699" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[user5@example.com]]>
+                <![CDATA[male]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[wrong@pass]]>
+                <![CDATA[John]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[invalid]]>
+                <![CDATA[Doe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[john.doe@example.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[short]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:30 IST" name="initialize" finished-at="2025-05-15T10:35:30 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:30 IST" name="loginTest" data-provider="loginData" finished-at="2025-05-15T10:35:31 IST" duration-ms="1303" status="PASS">
+        </test-method> <!-- testValidRegistrationDataDriven -->
+        <test-method signature="testValidRegistrationDataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.RegistrationPageTest@1de5f259]" started-at="2025-05-15T15:57:57 IST" name="testValidRegistrationDataDriven" data-provider="Registration" finished-at="2025-05-15T15:58:01 IST" duration-ms="3253" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[user6@example.com]]>
+                <![CDATA[female]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[pass with space]]>
+                <![CDATA[Aarti]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[invalid]]>
+                <![CDATA[Singh]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[aarti.singh@example.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ValidPass1]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:31 IST" name="initialize" finished-at="2025-05-15T10:35:31 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:31 IST" name="loginTest" data-provider="loginData" finished-at="2025-05-15T10:35:32 IST" duration-ms="1320" status="PASS">
+        </test-method> <!-- testValidRegistrationDataDriven -->
+        <test-method signature="testValidRegistrationDataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.RegistrationPageTest@1de5f259]" started-at="2025-05-15T15:58:01 IST" name="testValidRegistrationDataDriven" data-provider="Registration" finished-at="2025-05-15T15:58:11 IST" duration-ms="10039" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[USER1@example.com]]>
+                <![CDATA[male]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[correct123]]>
+                <![CDATA[Rahul]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[valid]]>
+                <![CDATA[Verma]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[rahul.verma@example.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[StrongPass2024]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#gender\-male"}
+  (Session info: chrome=136.0.7103.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [384b3b811c58e663cbd671fd6f8f99af, findElement {using=id, value=gender-male}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51721}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51721/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 384b3b811c58e663cbd671fd6f8f99af]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#gender\-male"}
+  (Session info: chrome=136.0.7103.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [384b3b811c58e663cbd671fd6f8f99af, findElement {using=id, value=gender-male}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51721}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51721/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 384b3b811c58e663cbd671fd6f8f99af
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at pageObject.RegistrationPage.selectGenderMale(RegistrationPage.java:50)
+at testBase.RegistrationPageTest.testValidRegistrationDataDriven(RegistrationPageTest.java:52)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:32 IST" name="initialize" finished-at="2025-05-15T10:35:32 IST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:32 IST" name="loginTest" data-provider="loginData" finished-at="2025-05-15T10:35:33 IST" duration-ms="964" status="PASS">
+        </test-method> <!-- testValidRegistrationDataDriven -->
+        <test-method signature="testValidRegistrationDataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.RegistrationPageTest@1de5f259]" started-at="2025-05-15T15:58:11 IST" name="testValidRegistrationDataDriven" data-provider="Registration" finished-at="2025-05-15T15:58:19 IST" duration-ms="8336" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[user7@example.com]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Correct123]]>
+                <![CDATA[Rahul]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[valid]]>
+                <![CDATA[Verma]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[rahul.verma@example.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[StrongPass2024]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:33 IST" name="initialize" finished-at="2025-05-15T10:35:33 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:33 IST" name="loginTest" data-provider="loginData" finished-at="2025-05-15T10:35:35 IST" duration-ms="1655" status="PASS">
+        </test-method> <!-- testValidRegistrationDataDriven -->
+        <test-method signature="testValidRegistrationDataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.RegistrationPageTest@1de5f259]" started-at="2025-05-15T15:58:19 IST" name="testValidRegistrationDataDriven" data-provider="Registration" finished-at="2025-05-15T15:58:30 IST" duration-ms="11100" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[user8@example.com]]>
+                <![CDATA[male]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Correct123]]>
+                <![CDATA[Rahul123]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[valid]]>
+                <![CDATA[Verma]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[rahul.verma@example.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[StrongPass2024]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:35 IST" name="initialize" finished-at="2025-05-15T10:35:35 IST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:35 IST" name="loginTest" data-provider="loginData" finished-at="2025-05-15T10:35:36 IST" duration-ms="1248" status="PASS">
+        </test-method> <!-- testValidRegistrationDataDriven -->
+        <test-method signature="testValidRegistrationDataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.RegistrationPageTest@1de5f259]" started-at="2025-05-15T15:58:30 IST" name="testValidRegistrationDataDriven" data-provider="Registration" finished-at="2025-05-15T15:58:35 IST" duration-ms="4605" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[user8@example.com]]>
+                <![CDATA[female]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[wrongpass]]>
+                <![CDATA[Aarti]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[invalid]]>
+                <![CDATA[Singh@]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[aarti.singh@example.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ValidPass1]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:36 IST" name="initialize" finished-at="2025-05-15T10:35:36 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:36 IST" name="loginTest" data-provider="loginData" finished-at="2025-05-15T10:35:38 IST" duration-ms="1553" status="PASS">
+        </test-method> <!-- testValidRegistrationDataDriven -->
+        <test-method signature="testValidRegistrationDataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.RegistrationPageTest@1de5f259]" started-at="2025-05-15T15:58:35 IST" name="testValidRegistrationDataDriven" data-provider="Registration" finished-at="2025-05-15T15:58:40 IST" duration-ms="4784" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[user9@example.com]]>
+                <![CDATA[male]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Correct123]]>
+                <![CDATA[Vikram]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[valid]]>
+                <![CDATA[Patel]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[vikram.patel@example.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pa$$word2024]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:38 IST" name="initialize" finished-at="2025-05-15T10:35:38 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:38 IST" name="loginTest" data-provider="loginData" finished-at="2025-05-15T10:35:39 IST" duration-ms="1165" status="PASS">
+        </test-method> <!-- testValidRegistrationDataDriven -->
+        <test-method signature="testValidRegistrationDataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.RegistrationPageTest@1de5f259]" started-at="2025-05-15T15:58:40 IST" name="testValidRegistrationDataDriven" data-provider="Registration" finished-at="2025-05-15T15:58:53 IST" duration-ms="13361" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[user9@example.com]]>
+                <![CDATA[female]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[CORRECT123]]>
+                <![CDATA[Tara]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[invalid]]>
+                <![CDATA[Gupta]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[tara.gupta@example.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tara2024]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:39 IST" name="initialize" finished-at="2025-05-15T10:35:39 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:39 IST" name="loginTest" data-provider="loginData" finished-at="2025-05-15T10:35:40 IST" duration-ms="1287" status="PASS">
+        </test-method> <!-- testValidRegistrationDataDriven -->
+        <test-method signature="testValidRegistrationDataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.RegistrationPageTest@1de5f259]" started-at="2025-05-15T15:58:53 IST" name="testValidRegistrationDataDriven" data-provider="Registration" finished-at="2025-05-15T15:59:12 IST" duration-ms="18641" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[user10@example.com]]>
+                <![CDATA[male]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[CoRrecT123]]>
+                <![CDATA[Sunil]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[valid]]>
+                <![CDATA[Malhotra]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[SunilPass]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:40 IST" name="initialize" finished-at="2025-05-15T10:35:40 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:40 IST" name="loginTest" data-provider="loginData" finished-at="2025-05-15T10:35:44 IST" duration-ms="3332" status="PASS">
+        </test-method> <!-- testValidRegistrationDataDriven -->
+        <test-method signature="testValidRegistrationDataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.RegistrationPageTest@1de5f259]" started-at="2025-05-15T15:59:12 IST" name="testValidRegistrationDataDriven" data-provider="Registration" finished-at="2025-05-15T15:59:13 IST" duration-ms="1862" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[user11@example.com]]>
+                <![CDATA[female]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[correct123]]>
+                <![CDATA[Neha]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[invalid]]>
+                <![CDATA[Joshi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[neha.joshi@example.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:44 IST" name="initialize" finished-at="2025-05-15T10:35:44 IST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:44 IST" name="loginTest" data-provider="loginData" finished-at="2025-05-15T10:35:45 IST" duration-ms="1159" status="PASS">
+        </test-method> <!-- testValidRegistrationDataDriven -->
+        <test-method signature="testValidRegistrationDataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.RegistrationPageTest@1de5f259]" started-at="2025-05-15T15:59:13 IST" name="testValidRegistrationDataDriven" data-provider="Registration" finished-at="2025-05-15T15:59:20 IST" duration-ms="6484" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[verylongusername@example.com]]>
+                <![CDATA[male]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[verylongpassword1234567890]]>
+                <![CDATA[Jay]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[valid]]>
+                <![CDATA[Mehta]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jay.mehta@example.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[JayM@123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:45 IST" name="initialize" finished-at="2025-05-15T10:35:45 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:45 IST" name="loginTest" data-provider="loginData" finished-at="2025-05-15T10:35:46 IST" duration-ms="938" status="PASS">
+        </test-method> <!-- testValidRegistrationDataDriven -->
+        <test-method signature="testValidRegistrationDataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.RegistrationPageTest@1de5f259]" started-at="2025-05-15T15:59:20 IST" name="testValidRegistrationDataDriven" data-provider="Registration" finished-at="2025-05-15T15:59:30 IST" duration-ms="10016" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[special!@#user@example.com]]>
+                <![CDATA[female]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Special!@#123]]>
+                <![CDATA[Anjali]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[valid]]>
+                <![CDATA[Roy]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[anjali.roy@nope]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test1234]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#gender\-female"}
+  (Session info: chrome=136.0.7103.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [384b3b811c58e663cbd671fd6f8f99af, findElement {using=id, value=gender-female}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51721}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51721/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 384b3b811c58e663cbd671fd6f8f99af]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#gender\-female"}
+  (Session info: chrome=136.0.7103.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [384b3b811c58e663cbd671fd6f8f99af, findElement {using=id, value=gender-female}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51721}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51721/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 384b3b811c58e663cbd671fd6f8f99af
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at pageObject.RegistrationPage.selectGenderFemale(RegistrationPage.java:55)
+at testBase.RegistrationPageTest.testValidRegistrationDataDriven(RegistrationPageTest.java:54)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testBase.LoginPageTest@1de5f259]" started-at="2025-05-15T10:35:46 IST" name="teardown" finished-at="2025-05-15T10:35:46 IST" duration-ms="633" status="PASS">
+        </test-method> <!-- testValidRegistrationDataDriven -->
+        <test-method signature="testValidRegistrationDataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.RegistrationPageTest@1de5f259]" started-at="2025-05-15T15:59:30 IST" name="testValidRegistrationDataDriven" data-provider="Registration" finished-at="2025-05-15T15:59:40 IST" duration-ms="10070" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Manish]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sharma]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[manish.sharma@example.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[manish]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#gender\-male"}
+  (Session info: chrome=136.0.7103.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [384b3b811c58e663cbd671fd6f8f99af, findElement {using=id, value=gender-male}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51721}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51721/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 384b3b811c58e663cbd671fd6f8f99af]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#gender\-male"}
+  (Session info: chrome=136.0.7103.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [384b3b811c58e663cbd671fd6f8f99af, findElement {using=id, value=gender-male}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51721}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51721/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 384b3b811c58e663cbd671fd6f8f99af
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at pageObject.RegistrationPage.selectGenderMale(RegistrationPage.java:50)
+at testBase.RegistrationPageTest.testValidRegistrationDataDriven(RegistrationPageTest.java:52)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidRegistrationDataDriven -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testBase.RegistrationPageTest@1de5f259]" started-at="2025-05-15T15:59:40 IST" name="tearDown" finished-at="2025-05-15T15:59:41 IST" duration-ms="732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testBase.RegistrationPageTest@1de5f259]" started-at="2025-05-15T15:59:41 IST" name="teardown" finished-at="2025-05-15T15:59:41 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- testBase.LoginPageTest -->
+      </class> <!-- testBase.RegistrationPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

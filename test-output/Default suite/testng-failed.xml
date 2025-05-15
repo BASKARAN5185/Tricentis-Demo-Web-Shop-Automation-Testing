@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testBase.LoginPageTest">
+      <class name="testBase.RegistrationPageTest">
         <methods>
-          <include name="setup"/>
+          <include name="tearDown"/>
           <include name="teardown"/>
-          <include name="initialize"/>
-          <include name="loginTest"/>
+          <include name="setup"/>
+          <include name="testValidRegistrationDataDriven" invocation-numbers="19 20 10"/>
         </methods>
-      </class> <!-- testBase.LoginPageTest -->
+      </class> <!-- testBase.RegistrationPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

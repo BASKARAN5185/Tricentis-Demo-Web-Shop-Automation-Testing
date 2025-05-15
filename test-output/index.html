@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\xmedia\AppData\Local\Temp\testng-eclipse-1005661196\testng-customsuite.xml</span>
+                    <span>C:\Users\xmedia\AppData\Local\Temp\testng-eclipse-1381493144\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">21 methods,   21 passed</span>
+                    <span class="method-stats">22 methods, 3 failed,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testBase.RegistrationPageTest" class="method navigator-link" hash-for-method="testValidRegistrationDataDriven(male, Rahul, Verma, rahul.verma@example.com, StrongPass2024)">testValidRegistrationDataDriven(male, Rahul, Verma, rahul.verma@example.com, StrongPass2024)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testBase.RegistrationPageTest" class="method navigator-link" hash-for-method="testValidRegistrationDataDriven(male, Manish, Sharma, manish.sharma@example.com, manish)">testValidRegistrationDataDriven(male, Manish, Sharma, manish.sharma@example.com, manish)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testBase.RegistrationPageTest" class="method navigator-link" hash-for-method="testValidRegistrationDataDriven(female, Anjali, Roy, anjali.roy@nope, Test1234)">testValidRegistrationDataDriven(female, Anjali, Roy, anjali.roy@nope, Test1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,107 +127,97 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testBase.LoginPageTest" class="method navigator-link" hash-for-method="loginTest(USER1@example.com, correct123, valid)">loginTest(USER1@example.com, correct123, valid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testBase.RegistrationPageTest" class="method navigator-link" hash-for-method="testValidRegistration">testValidRegistration</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testBase.LoginPageTest" class="method navigator-link" hash-for-method="loginTest(user2@example.com, wrongpass, invalid)">loginTest(user2@example.com, wrongpass, invalid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testBase.RegistrationPageTest" class="method navigator-link" hash-for-method="testValidRegistrationDataDriven(female, Aarti, Singh, aarti.singh@example.com, ValidPass1)">testValidRegistrationDataDriven(female, Aarti, Singh, aarti.singh@example.com, ValidPass1)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testBase.LoginPageTest" class="method navigator-link" hash-for-method="loginTest(user6@example.com, pass with space, invalid)">loginTest(user6@example.com, pass with space, invalid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testBase.RegistrationPageTest" class="method navigator-link" hash-for-method="testValidRegistrationDataDriven(male, John, Doe, john.doe@example.com, Password123)">testValidRegistrationDataDriven(male, John, Doe, john.doe@example.com, Password123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testBase.LoginPageTest" class="method navigator-link" hash-for-method="loginTest(user9@example.com, Correct123, valid)">loginTest(user9@example.com, Correct123, valid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testBase.RegistrationPageTest" class="method navigator-link" hash-for-method="testValidRegistrationDataDriven(male, Vikram, Patel, vikram.patel@example.com, Pa$$word2024)">testValidRegistrationDataDriven(male, Vikram, Patel, vikram.patel@example.com, Pa$$word2024)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testBase.LoginPageTest" class="method navigator-link" hash-for-method="loginTest(special!@#user@example.com, Special!@#123, valid)">loginTest(special!@#user@example.com, Special!@#123, valid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testBase.RegistrationPageTest" class="method navigator-link" hash-for-method="testValidRegistrationDataDriven(female, Priya, Sharma, priya.sharma@example.com, SecurePass456)">testValidRegistrationDataDriven(female, Priya, Sharma, priya.sharma@example.com, SecurePass456)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testBase.LoginPageTest" class="method navigator-link" hash-for-method="loginTest(Username, Password, ExpectedResult)">loginTest(Username, Password, ExpectedResult)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testBase.RegistrationPageTest" class="method navigator-link" hash-for-method="testValidRegistrationDataDriven(female, Neha, Joshi, neha.joshi@example.com, )">testValidRegistrationDataDriven(female, Neha, Joshi, neha.joshi@example.com, )</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testBase.LoginPageTest" class="method navigator-link" hash-for-method="loginTest(user5@example.com, wrong@pass, invalid)">loginTest(user5@example.com, wrong@pass, invalid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testBase.RegistrationPageTest" class="method navigator-link" hash-for-method="testValidRegistrationDataDriven(male, Jay, Mehta, jay.mehta@example.com, JayM@123)">testValidRegistrationDataDriven(male, Jay, Mehta, jay.mehta@example.com, JayM@123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testBase.LoginPageTest" class="method navigator-link" hash-for-method="loginTest(user8@example.com, wrongpass, invalid)">loginTest(user8@example.com, wrongpass, invalid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testBase.RegistrationPageTest" class="method navigator-link" hash-for-method="testValidRegistrationDataDriven(male, Sunil, Malhotra, , SunilPass)">testValidRegistrationDataDriven(male, Sunil, Malhotra, , SunilPass)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testBase.LoginPageTest" class="method navigator-link" hash-for-method="loginTest(user3@example.com, 123, invalid)">loginTest(user3@example.com, 123, invalid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testBase.RegistrationPageTest" class="method navigator-link" hash-for-method="testValidRegistrationDataDriven(male, John, Doe, john.doe@example.com, short)">testValidRegistrationDataDriven(male, John, Doe, john.doe@example.com, short)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testBase.LoginPageTest" class="method navigator-link" hash-for-method="loginTest(user8@example.com, Correct123, valid)">loginTest(user8@example.com, Correct123, valid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testBase.RegistrationPageTest" class="method navigator-link" hash-for-method="testValidRegistrationDataDriven(female, Aarti, Singh@, aarti.singh@example.com, ValidPass1)">testValidRegistrationDataDriven(female, Aarti, Singh@, aarti.singh@example.com, ValidPass1)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testBase.LoginPageTest" class="method navigator-link" hash-for-method="loginTest(user11@example.com, correct123, invalid)">loginTest(user11@example.com, correct123, invalid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testBase.RegistrationPageTest" class="method navigator-link" hash-for-method="testValidRegistrationDataDriven(male, John, Doe, john.doe@, Password123)">testValidRegistrationDataDriven(male, John, Doe, john.doe@, Password123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testBase.LoginPageTest" class="method navigator-link" hash-for-method="loginTest(admin@example.com, admin, valid)">loginTest(admin@example.com, admin, valid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testBase.RegistrationPageTest" class="method navigator-link" hash-for-method="testValidRegistrationDataDriven(male, , Kumar, amit.kumar@example.com, AmitPass789)">testValidRegistrationDataDriven(male, , Kumar, amit.kumar@example.com, AmitPass789)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testBase.LoginPageTest" class="method navigator-link" hash-for-method="loginTest(user1@example.com, correct123, valid)">loginTest(user1@example.com, correct123, valid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testBase.RegistrationPageTest" class="method navigator-link" hash-for-method="testValidRegistrationDataDriven(female, Tara, Gupta, tara.gupta@example.com, Tara2024)">testValidRegistrationDataDriven(female, Tara, Gupta, tara.gupta@example.com, Tara2024)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testBase.LoginPageTest" class="method navigator-link" hash-for-method="loginTest(wrongemail.com, test123, invalid)">loginTest(wrongemail.com, test123, invalid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testBase.RegistrationPageTest" class="method navigator-link" hash-for-method="testValidRegistrationDataDriven(, Rahul, Verma, rahul.verma@example.com, StrongPass2024)">testValidRegistrationDataDriven(, Rahul, Verma, rahul.verma@example.com, StrongPass2024)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testBase.LoginPageTest" class="method navigator-link" hash-for-method="loginTest(test@example.com, , invalid)">loginTest(test@example.com, , invalid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testBase.RegistrationPageTest" class="method navigator-link" hash-for-method="testValidRegistrationDataDriven(male, Rahul123, Verma, rahul.verma@example.com, StrongPass2024)">testValidRegistrationDataDriven(male, Rahul123, Verma, rahul.verma@example.com, StrongPass2024)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testBase.LoginPageTest" class="method navigator-link" hash-for-method="loginTest(user7@example.com, Correct123, valid)">loginTest(user7@example.com, Correct123, valid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testBase.RegistrationPageTest" class="method navigator-link" hash-for-method="testValidRegistrationDataDriven(female, Priya, , priya.sharma@example.com, SecurePass456)">testValidRegistrationDataDriven(female, Priya, , priya.sharma@example.com, SecurePass456)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testBase.LoginPageTest" class="method navigator-link" hash-for-method="loginTest(, correct123, invalid)">loginTest(, correct123, invalid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testBase.RegistrationPageTest" class="method navigator-link" hash-for-method="testValidRegistrationDataDriven(male, Amit, Kumar, amit.kumar@example.com, AmitPass789)">testValidRegistrationDataDriven(male, Amit, Kumar, amit.kumar@example.com, AmitPass789)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testBase.LoginPageTest" class="method navigator-link" hash-for-method="loginTest(user9@example.com, CORRECT123, invalid)">loginTest(user9@example.com, CORRECT123, invalid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testBase.RegistrationPageTest" class="method navigator-link" hash-for-method="testValidRegistrationDataDriven(female, Priya, Sharma, priya@@example.com, SecurePass456)">testValidRegistrationDataDriven(female, Priya, Sharma, priya@@example.com, SecurePass456)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testBase.LoginPageTest" class="method navigator-link" hash-for-method="loginTest(user4@example.com, Correct123!, valid)">loginTest(user4@example.com, Correct123!, valid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testBase.LoginPageTest" class="method navigator-link" hash-for-method="loginTest(user10@example.com, CoRrecT123, valid)">loginTest(user10@example.com, CoRrecT123, valid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testBase.LoginPageTest" class="method navigator-link" hash-for-method="loginTest(verylongusername@example.com, verylongpassword1234567890, valid)">loginTest(verylongusername@example.com, verylongpassword1234567890, valid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testBase.RegistrationPageTest" class="method navigator-link" hash-for-method="testValidRegistrationDataDriven(Gender, FirstName, LastName, Email, Password)">testValidRegistrationDataDriven(Gender, FirstName, LastName, Email, Password)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -218,178 +232,352 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testBase.LoginPageTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">testBase.RegistrationPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest(USER1@example.com, correct123, valid)">
-                  </a> <!-- loginTest(USER1@example.com, correct123, valid) -->
-                  <span class="method-name">loginTest</span>
-                  <span class="parameters">(USER1@example.com,correct123,valid)</span>
+                  <a name="testValidRegistrationDataDriven(male, Rahul, Verma, rahul.verma@example.com, StrongPass2024)">
+                  </a> <!-- testValidRegistrationDataDriven(male, Rahul, Verma, rahul.verma@example.com, StrongPass2024) -->
+                  <span class="method-name">testValidRegistrationDataDriven</span>
+                  <span class="parameters">(male,Rahul,Verma,rahul.verma@example.com,StrongPass2024)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#gender\-male&quot;}
+  (Session info: chrome=136.0.7103.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [384b3b811c58e663cbd671fd6f8f99af, findElement {using=id, value=gender-male}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51721}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51721/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 384b3b811c58e663cbd671fd6f8f99af
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at pageObject.RegistrationPage.selectGenderMale(RegistrationPage.java:50)
+	at testBase.RegistrationPageTest.testValidRegistrationDataDriven(RegistrationPageTest.java:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest(user2@example.com, wrongpass, invalid)">
-                  </a> <!-- loginTest(user2@example.com, wrongpass, invalid) -->
-                  <span class="method-name">loginTest</span>
-                  <span class="parameters">(user2@example.com,wrongpass,invalid)</span>
+                  <a name="testValidRegistrationDataDriven(male, Manish, Sharma, manish.sharma@example.com, manish)">
+                  </a> <!-- testValidRegistrationDataDriven(male, Manish, Sharma, manish.sharma@example.com, manish) -->
+                  <span class="method-name">testValidRegistrationDataDriven</span>
+                  <span class="parameters">(male,Manish,Sharma,manish.sharma@example.com,manish)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#gender\-male&quot;}
+  (Session info: chrome=136.0.7103.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [384b3b811c58e663cbd671fd6f8f99af, findElement {using=id, value=gender-male}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51721}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51721/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 384b3b811c58e663cbd671fd6f8f99af
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at pageObject.RegistrationPage.selectGenderMale(RegistrationPage.java:50)
+	at testBase.RegistrationPageTest.testValidRegistrationDataDriven(RegistrationPageTest.java:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest(user6@example.com, pass with space, invalid)">
-                  </a> <!-- loginTest(user6@example.com, pass with space, invalid) -->
-                  <span class="method-name">loginTest</span>
-                  <span class="parameters">(user6@example.com,pass with space,invalid)</span>
+                  <a name="testValidRegistrationDataDriven(female, Anjali, Roy, anjali.roy@nope, Test1234)">
+                  </a> <!-- testValidRegistrationDataDriven(female, Anjali, Roy, anjali.roy@nope, Test1234) -->
+                  <span class="method-name">testValidRegistrationDataDriven</span>
+                  <span class="parameters">(female,Anjali,Roy,anjali.roy@nope,Test1234)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#gender\-female&quot;}
+  (Session info: chrome=136.0.7103.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [384b3b811c58e663cbd671fd6f8f99af, findElement {using=id, value=gender-female}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51721}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51721/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 384b3b811c58e663cbd671fd6f8f99af
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at pageObject.RegistrationPage.selectGenderFemale(RegistrationPage.java:55)
+	at testBase.RegistrationPageTest.testValidRegistrationDataDriven(RegistrationPageTest.java:54)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testBase.RegistrationPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidRegistration">
+                  </a> <!-- testValidRegistration -->
+                  <span class="method-name">testValidRegistration</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest(user9@example.com, Correct123, valid)">
-                  </a> <!-- loginTest(user9@example.com, Correct123, valid) -->
-                  <span class="method-name">loginTest</span>
-                  <span class="parameters">(user9@example.com,Correct123,valid)</span>
+                  <a name="testValidRegistrationDataDriven(female, Aarti, Singh, aarti.singh@example.com, ValidPass1)">
+                  </a> <!-- testValidRegistrationDataDriven(female, Aarti, Singh, aarti.singh@example.com, ValidPass1) -->
+                  <span class="method-name">testValidRegistrationDataDriven</span>
+                  <span class="parameters">(female,Aarti,Singh,aarti.singh@example.com,ValidPass1)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest(special!@#user@example.com, Special!@#123, valid)">
-                  </a> <!-- loginTest(special!@#user@example.com, Special!@#123, valid) -->
-                  <span class="method-name">loginTest</span>
-                  <span class="parameters">(special!@#user@example.com,Special!@#123,valid)</span>
+                  <a name="testValidRegistrationDataDriven(male, John, Doe, john.doe@example.com, Password123)">
+                  </a> <!-- testValidRegistrationDataDriven(male, John, Doe, john.doe@example.com, Password123) -->
+                  <span class="method-name">testValidRegistrationDataDriven</span>
+                  <span class="parameters">(male,John,Doe,john.doe@example.com,Password123)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest(Username, Password, ExpectedResult)">
-                  </a> <!-- loginTest(Username, Password, ExpectedResult) -->
-                  <span class="method-name">loginTest</span>
-                  <span class="parameters">(Username,Password,ExpectedResult)</span>
+                  <a name="testValidRegistrationDataDriven(male, Vikram, Patel, vikram.patel@example.com, Pa$$word2024)">
+                  </a> <!-- testValidRegistrationDataDriven(male, Vikram, Patel, vikram.patel@example.com, Pa$$word2024) -->
+                  <span class="method-name">testValidRegistrationDataDriven</span>
+                  <span class="parameters">(male,Vikram,Patel,vikram.patel@example.com,Pa$$word2024)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest(user5@example.com, wrong@pass, invalid)">
-                  </a> <!-- loginTest(user5@example.com, wrong@pass, invalid) -->
-                  <span class="method-name">loginTest</span>
-                  <span class="parameters">(user5@example.com,wrong@pass,invalid)</span>
+                  <a name="testValidRegistrationDataDriven(female, Priya, Sharma, priya.sharma@example.com, SecurePass456)">
+                  </a> <!-- testValidRegistrationDataDriven(female, Priya, Sharma, priya.sharma@example.com, SecurePass456) -->
+                  <span class="method-name">testValidRegistrationDataDriven</span>
+                  <span class="parameters">(female,Priya,Sharma,priya.sharma@example.com,SecurePass456)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest(user8@example.com, wrongpass, invalid)">
-                  </a> <!-- loginTest(user8@example.com, wrongpass, invalid) -->
-                  <span class="method-name">loginTest</span>
-                  <span class="parameters">(user8@example.com,wrongpass,invalid)</span>
+                  <a name="testValidRegistrationDataDriven(female, Neha, Joshi, neha.joshi@example.com, )">
+                  </a> <!-- testValidRegistrationDataDriven(female, Neha, Joshi, neha.joshi@example.com, ) -->
+                  <span class="method-name">testValidRegistrationDataDriven</span>
+                  <span class="parameters">(female,Neha,Joshi,neha.joshi@example.com,)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest(user3@example.com, 123, invalid)">
-                  </a> <!-- loginTest(user3@example.com, 123, invalid) -->
-                  <span class="method-name">loginTest</span>
-                  <span class="parameters">(user3@example.com,123,invalid)</span>
+                  <a name="testValidRegistrationDataDriven(male, Jay, Mehta, jay.mehta@example.com, JayM@123)">
+                  </a> <!-- testValidRegistrationDataDriven(male, Jay, Mehta, jay.mehta@example.com, JayM@123) -->
+                  <span class="method-name">testValidRegistrationDataDriven</span>
+                  <span class="parameters">(male,Jay,Mehta,jay.mehta@example.com,JayM@123)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest(user8@example.com, Correct123, valid)">
-                  </a> <!-- loginTest(user8@example.com, Correct123, valid) -->
-                  <span class="method-name">loginTest</span>
-                  <span class="parameters">(user8@example.com,Correct123,valid)</span>
+                  <a name="testValidRegistrationDataDriven(male, Sunil, Malhotra, , SunilPass)">
+                  </a> <!-- testValidRegistrationDataDriven(male, Sunil, Malhotra, , SunilPass) -->
+                  <span class="method-name">testValidRegistrationDataDriven</span>
+                  <span class="parameters">(male,Sunil,Malhotra,,SunilPass)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest(user11@example.com, correct123, invalid)">
-                  </a> <!-- loginTest(user11@example.com, correct123, invalid) -->
-                  <span class="method-name">loginTest</span>
-                  <span class="parameters">(user11@example.com,correct123,invalid)</span>
+                  <a name="testValidRegistrationDataDriven(male, John, Doe, john.doe@example.com, short)">
+                  </a> <!-- testValidRegistrationDataDriven(male, John, Doe, john.doe@example.com, short) -->
+                  <span class="method-name">testValidRegistrationDataDriven</span>
+                  <span class="parameters">(male,John,Doe,john.doe@example.com,short)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest(admin@example.com, admin, valid)">
-                  </a> <!-- loginTest(admin@example.com, admin, valid) -->
-                  <span class="method-name">loginTest</span>
-                  <span class="parameters">(admin@example.com,admin,valid)</span>
+                  <a name="testValidRegistrationDataDriven(female, Aarti, Singh@, aarti.singh@example.com, ValidPass1)">
+                  </a> <!-- testValidRegistrationDataDriven(female, Aarti, Singh@, aarti.singh@example.com, ValidPass1) -->
+                  <span class="method-name">testValidRegistrationDataDriven</span>
+                  <span class="parameters">(female,Aarti,Singh@,aarti.singh@example.com,ValidPass1)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest(user1@example.com, correct123, valid)">
-                  </a> <!-- loginTest(user1@example.com, correct123, valid) -->
-                  <span class="method-name">loginTest</span>
-                  <span class="parameters">(user1@example.com,correct123,valid)</span>
+                  <a name="testValidRegistrationDataDriven(male, John, Doe, john.doe@, Password123)">
+                  </a> <!-- testValidRegistrationDataDriven(male, John, Doe, john.doe@, Password123) -->
+                  <span class="method-name">testValidRegistrationDataDriven</span>
+                  <span class="parameters">(male,John,Doe,john.doe@,Password123)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest(wrongemail.com, test123, invalid)">
-                  </a> <!-- loginTest(wrongemail.com, test123, invalid) -->
-                  <span class="method-name">loginTest</span>
-                  <span class="parameters">(wrongemail.com,test123,invalid)</span>
+                  <a name="testValidRegistrationDataDriven(male, , Kumar, amit.kumar@example.com, AmitPass789)">
+                  </a> <!-- testValidRegistrationDataDriven(male, , Kumar, amit.kumar@example.com, AmitPass789) -->
+                  <span class="method-name">testValidRegistrationDataDriven</span>
+                  <span class="parameters">(male,,Kumar,amit.kumar@example.com,AmitPass789)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest(test@example.com, , invalid)">
-                  </a> <!-- loginTest(test@example.com, , invalid) -->
-                  <span class="method-name">loginTest</span>
-                  <span class="parameters">(test@example.com,,invalid)</span>
+                  <a name="testValidRegistrationDataDriven(female, Tara, Gupta, tara.gupta@example.com, Tara2024)">
+                  </a> <!-- testValidRegistrationDataDriven(female, Tara, Gupta, tara.gupta@example.com, Tara2024) -->
+                  <span class="method-name">testValidRegistrationDataDriven</span>
+                  <span class="parameters">(female,Tara,Gupta,tara.gupta@example.com,Tara2024)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest(user7@example.com, Correct123, valid)">
-                  </a> <!-- loginTest(user7@example.com, Correct123, valid) -->
-                  <span class="method-name">loginTest</span>
-                  <span class="parameters">(user7@example.com,Correct123,valid)</span>
+                  <a name="testValidRegistrationDataDriven(, Rahul, Verma, rahul.verma@example.com, StrongPass2024)">
+                  </a> <!-- testValidRegistrationDataDriven(, Rahul, Verma, rahul.verma@example.com, StrongPass2024) -->
+                  <span class="method-name">testValidRegistrationDataDriven</span>
+                  <span class="parameters">(,Rahul,Verma,rahul.verma@example.com,StrongPass2024)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest(, correct123, invalid)">
-                  </a> <!-- loginTest(, correct123, invalid) -->
-                  <span class="method-name">loginTest</span>
-                  <span class="parameters">(,correct123,invalid)</span>
+                  <a name="testValidRegistrationDataDriven(male, Rahul123, Verma, rahul.verma@example.com, StrongPass2024)">
+                  </a> <!-- testValidRegistrationDataDriven(male, Rahul123, Verma, rahul.verma@example.com, StrongPass2024) -->
+                  <span class="method-name">testValidRegistrationDataDriven</span>
+                  <span class="parameters">(male,Rahul123,Verma,rahul.verma@example.com,StrongPass2024)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest(user9@example.com, CORRECT123, invalid)">
-                  </a> <!-- loginTest(user9@example.com, CORRECT123, invalid) -->
-                  <span class="method-name">loginTest</span>
-                  <span class="parameters">(user9@example.com,CORRECT123,invalid)</span>
+                  <a name="testValidRegistrationDataDriven(female, Priya, , priya.sharma@example.com, SecurePass456)">
+                  </a> <!-- testValidRegistrationDataDriven(female, Priya, , priya.sharma@example.com, SecurePass456) -->
+                  <span class="method-name">testValidRegistrationDataDriven</span>
+                  <span class="parameters">(female,Priya,,priya.sharma@example.com,SecurePass456)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest(user4@example.com, Correct123!, valid)">
-                  </a> <!-- loginTest(user4@example.com, Correct123!, valid) -->
-                  <span class="method-name">loginTest</span>
-                  <span class="parameters">(user4@example.com,Correct123!,valid)</span>
+                  <a name="testValidRegistrationDataDriven(male, Amit, Kumar, amit.kumar@example.com, AmitPass789)">
+                  </a> <!-- testValidRegistrationDataDriven(male, Amit, Kumar, amit.kumar@example.com, AmitPass789) -->
+                  <span class="method-name">testValidRegistrationDataDriven</span>
+                  <span class="parameters">(male,Amit,Kumar,amit.kumar@example.com,AmitPass789)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest(user10@example.com, CoRrecT123, valid)">
-                  </a> <!-- loginTest(user10@example.com, CoRrecT123, valid) -->
-                  <span class="method-name">loginTest</span>
-                  <span class="parameters">(user10@example.com,CoRrecT123,valid)</span>
+                  <a name="testValidRegistrationDataDriven(female, Priya, Sharma, priya@@example.com, SecurePass456)">
+                  </a> <!-- testValidRegistrationDataDriven(female, Priya, Sharma, priya@@example.com, SecurePass456) -->
+                  <span class="method-name">testValidRegistrationDataDriven</span>
+                  <span class="parameters">(female,Priya,Sharma,priya@@example.com,SecurePass456)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest(verylongusername@example.com, verylongpassword1234567890, valid)">
-                  </a> <!-- loginTest(verylongusername@example.com, verylongpassword1234567890, valid) -->
-                  <span class="method-name">loginTest</span>
-                  <span class="parameters">(verylongusername@example.com,verylongpassword1234567890,valid)</span>
+                  <a name="testValidRegistrationDataDriven(Gender, FirstName, LastName, Email, Password)">
+                  </a> <!-- testValidRegistrationDataDriven(Gender, FirstName, LastName, Email, Password) -->
+                  <span class="method-name">testValidRegistrationDataDriven</span>
+                  <span class="parameters">(Gender,FirstName,LastName,Email,Password)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -397,7 +585,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\xmedia\AppData\Local\Temp\testng-eclipse-1005661196\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\xmedia\AppData\Local\Temp\testng-eclipse-1381493144\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -406,7 +594,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testBase.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;testBase.RegistrationPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -446,96 +634,100 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(21);
+data.addRows(22);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginTest')
-data.setCell(0, 2, 'testBase.LoginPageTest')
-data.setCell(0, 3, 3332);
+data.setCell(0, 1, 'testValidRegistrationDataDriven')
+data.setCell(0, 2, 'testBase.RegistrationPageTest')
+data.setCell(0, 3, 18641);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginTest')
-data.setCell(1, 2, 'testBase.LoginPageTest')
-data.setCell(1, 3, 2703);
+data.setCell(1, 1, 'testValidRegistrationDataDriven')
+data.setCell(1, 2, 'testBase.RegistrationPageTest')
+data.setCell(1, 3, 13361);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'loginTest')
-data.setCell(2, 2, 'testBase.LoginPageTest')
-data.setCell(2, 3, 1747);
+data.setCell(2, 1, 'testValidRegistrationDataDriven')
+data.setCell(2, 2, 'testBase.RegistrationPageTest')
+data.setCell(2, 3, 12004);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'loginTest')
-data.setCell(3, 2, 'testBase.LoginPageTest')
-data.setCell(3, 3, 1694);
+data.setCell(3, 1, 'testValidRegistrationDataDriven')
+data.setCell(3, 2, 'testBase.RegistrationPageTest')
+data.setCell(3, 3, 11100);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'loginTest')
-data.setCell(4, 2, 'testBase.LoginPageTest')
-data.setCell(4, 3, 1655);
+data.setCell(4, 1, 'testValidRegistrationDataDriven')
+data.setCell(4, 2, 'testBase.RegistrationPageTest')
+data.setCell(4, 3, 10070);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'loginTest')
-data.setCell(5, 2, 'testBase.LoginPageTest')
-data.setCell(5, 3, 1594);
+data.setCell(5, 1, 'testValidRegistrationDataDriven')
+data.setCell(5, 2, 'testBase.RegistrationPageTest')
+data.setCell(5, 3, 10039);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'loginTest')
-data.setCell(6, 2, 'testBase.LoginPageTest')
-data.setCell(6, 3, 1553);
+data.setCell(6, 1, 'testValidRegistrationDataDriven')
+data.setCell(6, 2, 'testBase.RegistrationPageTest')
+data.setCell(6, 3, 10016);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'loginTest')
-data.setCell(7, 2, 'testBase.LoginPageTest')
-data.setCell(7, 3, 1552);
+data.setCell(7, 1, 'testValidRegistrationDataDriven')
+data.setCell(7, 2, 'testBase.RegistrationPageTest')
+data.setCell(7, 3, 8336);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'loginTest')
-data.setCell(8, 2, 'testBase.LoginPageTest')
-data.setCell(8, 3, 1487);
+data.setCell(8, 1, 'testValidRegistrationDataDriven')
+data.setCell(8, 2, 'testBase.RegistrationPageTest')
+data.setCell(8, 3, 6484);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'loginTest')
-data.setCell(9, 2, 'testBase.LoginPageTest')
-data.setCell(9, 3, 1320);
+data.setCell(9, 1, 'testValidRegistrationDataDriven')
+data.setCell(9, 2, 'testBase.RegistrationPageTest')
+data.setCell(9, 3, 4784);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'loginTest')
-data.setCell(10, 2, 'testBase.LoginPageTest')
-data.setCell(10, 3, 1303);
+data.setCell(10, 1, 'testValidRegistrationDataDriven')
+data.setCell(10, 2, 'testBase.RegistrationPageTest')
+data.setCell(10, 3, 4605);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'loginTest')
-data.setCell(11, 2, 'testBase.LoginPageTest')
-data.setCell(11, 3, 1287);
+data.setCell(11, 1, 'testValidRegistrationDataDriven')
+data.setCell(11, 2, 'testBase.RegistrationPageTest')
+data.setCell(11, 3, 4125);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'loginTest')
-data.setCell(12, 2, 'testBase.LoginPageTest')
-data.setCell(12, 3, 1248);
+data.setCell(12, 1, 'testValidRegistration')
+data.setCell(12, 2, 'testBase.RegistrationPageTest')
+data.setCell(12, 3, 3728);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'loginTest')
-data.setCell(13, 2, 'testBase.LoginPageTest')
-data.setCell(13, 3, 1232);
+data.setCell(13, 1, 'testValidRegistrationDataDriven')
+data.setCell(13, 2, 'testBase.RegistrationPageTest')
+data.setCell(13, 3, 3389);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'loginTest')
-data.setCell(14, 2, 'testBase.LoginPageTest')
-data.setCell(14, 3, 1165);
+data.setCell(14, 1, 'testValidRegistrationDataDriven')
+data.setCell(14, 2, 'testBase.RegistrationPageTest')
+data.setCell(14, 3, 3361);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'loginTest')
-data.setCell(15, 2, 'testBase.LoginPageTest')
-data.setCell(15, 3, 1159);
+data.setCell(15, 1, 'testValidRegistrationDataDriven')
+data.setCell(15, 2, 'testBase.RegistrationPageTest')
+data.setCell(15, 3, 3253);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'loginTest')
-data.setCell(16, 2, 'testBase.LoginPageTest')
-data.setCell(16, 3, 1140);
+data.setCell(16, 1, 'testValidRegistrationDataDriven')
+data.setCell(16, 2, 'testBase.RegistrationPageTest')
+data.setCell(16, 3, 1862);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'loginTest')
-data.setCell(17, 2, 'testBase.LoginPageTest')
-data.setCell(17, 3, 1078);
+data.setCell(17, 1, 'testValidRegistrationDataDriven')
+data.setCell(17, 2, 'testBase.RegistrationPageTest')
+data.setCell(17, 3, 1790);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'loginTest')
-data.setCell(18, 2, 'testBase.LoginPageTest')
-data.setCell(18, 3, 992);
+data.setCell(18, 1, 'testValidRegistrationDataDriven')
+data.setCell(18, 2, 'testBase.RegistrationPageTest')
+data.setCell(18, 3, 1762);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'loginTest')
-data.setCell(19, 2, 'testBase.LoginPageTest')
-data.setCell(19, 3, 964);
+data.setCell(19, 1, 'testValidRegistrationDataDriven')
+data.setCell(19, 2, 'testBase.RegistrationPageTest')
+data.setCell(19, 3, 1762);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'loginTest')
-data.setCell(20, 2, 'testBase.LoginPageTest')
-data.setCell(20, 3, 938);
+data.setCell(20, 1, 'testValidRegistrationDataDriven')
+data.setCell(20, 2, 'testBase.RegistrationPageTest')
+data.setCell(20, 3, 1699);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testValidRegistrationDataDriven')
+data.setCell(21, 2, 'testBase.RegistrationPageTest')
+data.setCell(21, 3, 1677);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 31 seconds</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -561,182 +753,112 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testBase.LoginPageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
+              <div class="chronological-class-name">testBase.RegistrationPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="configuration-method before">
-                <span class="method-name">initialize</span>
-                <span class="method-start">9613 ms</span>
-              </div> <!-- configuration-method before -->
+              </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">loginTest(Username, Password, ExpectedResult)</span>
-                <span class="method-start">9620 ms</span>
+                <span class="method-name">testValidRegistration</span>
+                <span class="method-start">7717 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">initialize</span>
-                <span class="method-start">10626 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginTest(user1@example.com, correct123, valid)</span>
-                <span class="method-start">10644 ms</span>
+                <span class="method-name">testValidRegistrationDataDriven(Gender, FirstName, LastName, Email, Password)</span>
+                <span class="method-start">14220 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">initialize</span>
-                <span class="method-start">12409 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginTest(user2@example.com, wrongpass, invalid)</span>
-                <span class="method-start">12417 ms</span>
+                <span class="method-name">testValidRegistrationDataDriven(male, John, Doe, john.doe@example.com, Password123)</span>
+                <span class="method-start">15905 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">initialize</span>
-                <span class="method-start">14032 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginTest(, correct123, invalid)</span>
-                <span class="method-start">14034 ms</span>
+                <span class="method-name">testValidRegistrationDataDriven(female, Priya, Sharma, priya.sharma@example.com, SecurePass456)</span>
+                <span class="method-start">19302 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">initialize</span>
-                <span class="method-start">15599 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginTest(admin@example.com, admin, valid)</span>
-                <span class="method-start">15608 ms</span>
+                <span class="method-name">testValidRegistrationDataDriven(male, Amit, Kumar, amit.kumar@example.com, AmitPass789)</span>
+                <span class="method-start">22679 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">initialize</span>
-                <span class="method-start">16860 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginTest(test@example.com, , invalid)</span>
-                <span class="method-start">16867 ms</span>
+                <span class="method-name">testValidRegistrationDataDriven(male, , Kumar, amit.kumar@example.com, AmitPass789)</span>
+                <span class="method-start">26811 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">initialize</span>
-                <span class="method-start">18377 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginTest(wrongemail.com, test123, invalid)</span>
-                <span class="method-start">18383 ms</span>
+                <span class="method-name">testValidRegistrationDataDriven(female, Priya, , priya.sharma@example.com, SecurePass456)</span>
+                <span class="method-start">38822 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">initialize</span>
-                <span class="method-start">19539 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginTest(user3@example.com, 123, invalid)</span>
-                <span class="method-start">19543 ms</span>
+                <span class="method-name">testValidRegistrationDataDriven(male, John, Doe, john.doe@, Password123)</span>
+                <span class="method-start">40592 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">initialize</span>
-                <span class="method-start">21243 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginTest(user4@example.com, Correct123!, valid)</span>
-                <span class="method-start">21256 ms</span>
+                <span class="method-name">testValidRegistrationDataDriven(female, Priya, Sharma, priya@@example.com, SecurePass456)</span>
+                <span class="method-start">42360 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">initialize</span>
-                <span class="method-start">23974 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginTest(user5@example.com, wrong@pass, invalid)</span>
-                <span class="method-start">23981 ms</span>
+                <span class="method-name">testValidRegistrationDataDriven(male, John, Doe, john.doe@example.com, short)</span>
+                <span class="method-start">44164 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">initialize</span>
-                <span class="method-start">25080 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginTest(user6@example.com, pass with space, invalid)</span>
-                <span class="method-start">25091 ms</span>
+                <span class="method-name">testValidRegistrationDataDriven(female, Aarti, Singh, aarti.singh@example.com, ValidPass1)</span>
+                <span class="method-start">45876 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">initialize</span>
-                <span class="method-start">26419 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginTest(USER1@example.com, correct123, valid)</span>
-                <span class="method-start">26422 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testValidRegistrationDataDriven(male, Rahul, Verma, rahul.verma@example.com, StrongPass2024)</span>
+                <span class="method-start">49139 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">initialize</span>
-                <span class="method-start">27751 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginTest(user7@example.com, Correct123, valid)</span>
-                <span class="method-start">27763 ms</span>
+                <span class="method-name">testValidRegistrationDataDriven(, Rahul, Verma, rahul.verma@example.com, StrongPass2024)</span>
+                <span class="method-start">59192 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">initialize</span>
-                <span class="method-start">28732 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginTest(user8@example.com, Correct123, valid)</span>
-                <span class="method-start">28735 ms</span>
+                <span class="method-name">testValidRegistrationDataDriven(male, Rahul123, Verma, rahul.verma@example.com, StrongPass2024)</span>
+                <span class="method-start">67533 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">initialize</span>
-                <span class="method-start">30403 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginTest(user8@example.com, wrongpass, invalid)</span>
-                <span class="method-start">30415 ms</span>
+                <span class="method-name">testValidRegistrationDataDriven(female, Aarti, Singh@, aarti.singh@example.com, ValidPass1)</span>
+                <span class="method-start">78636 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">initialize</span>
-                <span class="method-start">31682 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginTest(user9@example.com, Correct123, valid)</span>
-                <span class="method-start">31685 ms</span>
+                <span class="method-name">testValidRegistrationDataDriven(male, Vikram, Patel, vikram.patel@example.com, Pa$$word2024)</span>
+                <span class="method-start">83253 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">initialize</span>
-                <span class="method-start">33256 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginTest(user9@example.com, CORRECT123, invalid)</span>
-                <span class="method-start">33264 ms</span>
+                <span class="method-name">testValidRegistrationDataDriven(female, Tara, Gupta, tara.gupta@example.com, Tara2024)</span>
+                <span class="method-start">88040 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">initialize</span>
-                <span class="method-start">34449 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginTest(user10@example.com, CoRrecT123, valid)</span>
-                <span class="method-start">34451 ms</span>
+                <span class="method-name">testValidRegistrationDataDriven(male, Sunil, Malhotra, , SunilPass)</span>
+                <span class="method-start">101405 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">initialize</span>
-                <span class="method-start">35758 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginTest(user11@example.com, correct123, invalid)</span>
-                <span class="method-start">35762 ms</span>
+                <span class="method-name">testValidRegistrationDataDriven(female, Neha, Joshi, neha.joshi@example.com, )</span>
+                <span class="method-start">120051 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">initialize</span>
-                <span class="method-start">39105 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginTest(verylongusername@example.com, verylongpassword1234567890, valid)</span>
-                <span class="method-start">39118 ms</span>
+                <span class="method-name">testValidRegistrationDataDriven(male, Jay, Mehta, jay.mehta@example.com, JayM@123)</span>
+                <span class="method-start">121922 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">initialize</span>
-                <span class="method-start">40289 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginTest(special!@#user@example.com, Special!@#123, valid)</span>
-                <span class="method-start">40293 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testValidRegistrationDataDriven(female, Anjali, Roy, anjali.roy@nope, Test1234)</span>
+                <span class="method-start">128409 ms</span>
               </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testValidRegistrationDataDriven(male, Manish, Sharma, manish.sharma@example.com, manish)</span>
+                <span class="method-start">138430 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">148506 ms</span>
+              </div> <!-- configuration-class after -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">41248 ms</span>
+                <span class="method-start">149242 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
