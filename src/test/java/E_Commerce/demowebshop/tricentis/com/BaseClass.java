@@ -9,20 +9,20 @@ import org.testng.annotations.BeforeTest;
 
 public class BaseClass {
 
-	public static WebDriver driver;
+    public static WebDriver driver;
 
-	@BeforeTest
-	public void setuo() {
-		driver = new ChromeDriver();
-		driver.get("https://demowebshop.tricentis.com/login");
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-		driver.manage().window().maximize();
+    @BeforeTest
+    public void setup() {
+        driver = new ChromeDriver();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+        driver.manage().window().maximize();
+        driver.get("https://demowebshop.tricentis.com/login");
+    }
 
-	}
-
-	@AfterTest
-	public void teardown() {
-		driver.close();
-	}
-
+    @AfterTest
+    public void teardown() {
+        if (driver != null) {
+            driver.quit();
+        }
+    }
 }
