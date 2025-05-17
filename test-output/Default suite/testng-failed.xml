@@ -3,14 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testBase.RegistrationPageTest">
+      <class name="testBase.HomePageTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="teardown"/>
           <include name="setup"/>
-          <include name="testValidRegistrationDataDriven" invocation-numbers="19 20 10"/>
+          <include name="testCategoryNavigationDownloads"/>
+          <include name="teardown"/>
+          <include name="testNewsletterSubscriptionInvalid"/>
+          <include name="testSubMenuNavigationNotebooks"/>
+          <include name="testLoadingIndicator"/>
+          <include name="testFlyoutCartMessage"/>
+          <include name="testSubMenuNavigationPhones"/>
         </methods>
-      </class> <!-- testBase.RegistrationPageTest -->
+      </class> <!-- testBase.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
